@@ -1,0 +1,20 @@
+{
+  "name": "chip8",
+  "version": "0.0.0",
+  "description": "A javascript chip8 emulator",
+  "main": "src/chip8.js",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "author": "Claudemiro Alves Feitosa Neto",
+  "license": "ISC",
+  "devDependencies": {
+    "nodeunit": "^0.9.1",
+    "browserify": "^10.2.1",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-uglify": "^1.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

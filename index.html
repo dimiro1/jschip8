@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <meta charset='utf-8'>
+    <title>Chip8 Emulator</title>
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        html {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #000000;
+            color: #9bbc0f;
+        }
+
+        canvas {
+            image-rendering: optimizeSpeed;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: -o-crisp-edges;
+            image-rendering: pixelated;
+            -ms-interpolation-mode: nearest-neighbor;
+        }
+
+        a {
+            color: #FFF;
+        }
+
+        .screen {
+            width: 512px;
+            height: 256px;
+            background: #000;
+            margin-bottom: 20px;
+
+            border: 6px solid #555;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        p.copyright {
+            font-size: 12px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <h1 class="title">Chip8 Emulator</h1>
+            <canvas id="screen" class="screen" width="64" height="32"></canvas>
+            <p class="copyright">Copyright (C) 2014 Claudemiro Alves Feitosa Neto <a href="mailto:dimiro1@gmail.com">dimiro1@gmail.com</a></p>
+        </div>
+        <script src="dist/chip8.min.js"></script>
+    </body>
+</html>
