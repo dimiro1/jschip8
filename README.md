@@ -2,6 +2,8 @@
 
 A chip8 emulator in Javascript.
 
+![jschip8](https://raw.githubusercontent.com/dimiro1/jschip8/master/screenshot.png "jschip8")
+
 # Running
 
 ```
